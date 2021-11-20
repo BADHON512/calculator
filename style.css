@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    background-image: url(image/blurbg7.jpg);
+}
+container{
+    
+ 
+}
+.calculator{
+    height: 520px;
+    width: 340px;
+    background-color:wheat;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(8, 2, 8);
+}
+#resuld{
+    height: 120px;
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+#history{
+    text-align: right;
+    margin-right: 30px;
+    color: #998f8f;
+    padding-top: 10px;
+    font-weight:bold;
+   
+    
+}
+#output{
+    text-align: right;
+    padding-bottom: 10px;
+    margin-right: 35px;
+    font-size: 30px;
+
+    font-weight:bolder;
+  
+    
+}
+.operator, .number, .empty{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0px;
+    font-weight:30px
+
+    
+}
+.number, .operator{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: rgb(219, 29, 219);
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(218, 26, 26);
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(29, 219, 86);
+}
+button:nth-child(16){
+    
+    ont-size: 20px;
+    background-color: rgb(67, 32, 224);
+}
+button:nth-child(20){
+    ont-size: 20px;
+    background-color: fuchsia;
+}
